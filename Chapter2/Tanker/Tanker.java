@@ -40,11 +40,8 @@ class Tanker {
 
 		//calculations of ounces
 		double difference = deathDay.daysFrom(birthday);
-		System.out.println(difference);
 		double totalOunces = (difference * ounces);
-		System.out.println(totalOunces);
 		double totalGallons = (totalOunces / 128);
-		System.out.println(totalGallons);
 		double totalTankers = (totalGallons / 8000);
 
 		//print the amount of tankers
