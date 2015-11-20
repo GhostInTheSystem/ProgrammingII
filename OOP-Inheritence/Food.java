@@ -5,6 +5,18 @@ class Food {
 	private String name;
 	private String measurement;
 	
+	public Food(){
+		
+	}
+	
+	public Food(double calories, boolean isTasty, double servingSize, String measurement, String name){
+		this.calories = calories;
+		this.isTasty = isTasty;
+		this.servingSize = servingSize;
+		this.measurement = measurement;
+		this.name = name;
+	}
+	
 	public void setCalorieCount(int calories){
 		this.calories = calories;
 	}
