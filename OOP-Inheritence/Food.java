@@ -5,21 +5,21 @@ class Food {
 	private String name;
 	private String measurement;
 	
-	public void setCalorieCount(int a){
-		calories = a;
+	public void setCalorieCount(int calories){
+		this.calories = calories;
 	}
 	
-	public void setIsTasty(boolean a){
-		isTasty = a;
+	public void setIsTasty(boolean isTasty){
+		this.isTasty = isTasty;
 	}
 	
-	public void setServingSize(double a, String tempMeasurement){
-		servingSize = a;
-		measurement = tempMeasurement;
+	public void setServingSize(double servingSize, String tempMeasurement){
+		this.servingSize = servingSize;
+		this.measurement = measurement;
 	}
 	
-	public void setName(String tempName){
-		name = tempName;
+	public void setName(String name){
+		this.name = name;
 	}
 	
 	public double getCalorie(){
