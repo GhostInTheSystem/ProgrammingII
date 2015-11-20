@@ -42,5 +42,9 @@ class Meats extends Food {
 		return sourceAnimal;
 	}
 	
+	public String getRedness(){
+		return redness;
+	}
+	
 	
 }
